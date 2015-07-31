@@ -10,24 +10,21 @@ import Foundation
 
 println("Hello, World!")
 
-//储值属性和算值属性
 /*
+1.储值属性和算值属性
 储值属性和原来OC属性一样
 算值属性可以通过其它储值属性算出来
-
-
 */
 
 class Vehicle {
     //变量给默认值 或者初始化给值，或者声明为可选类型
     var numberOfWheels = 0
-    //制度属性，省略get
+    //只读属性，省略get
     var description : String {
 //        get {
 //        
 //        return "\(numberOfWheels)"
 //        }
-//       
 //        set {
 //        
 //        //通过newvalue变量返回新制
@@ -41,43 +38,37 @@ let someVehicle = Vehicle()
 println(someVehicle.description)
 
 
-//初始化
-
+//2.初始化
 class Bicycle: Vehicle {
    override init() {
         //父类初始化 OC 必须super init ，而swiftsuper.init()只是初始化 没必要非要调用
         super.init();
         numberOfWheels = 2
-    
     }
 }
-
 let myBicycle = Bicycle()
 println(myBicycle.description)
 
 
-//属性覆盖
-//覆盖算值属性
+/*
+3.属性覆盖
+覆盖算值属性
+*/
 class Car: Vehicle {
     var speed = 0.0
-    
    override init(){
     super.init()
         numberOfWheels = 4
-    
     }
     override var description : String {
-    
-    return super.description + ", 每小时\(speed)英里"
-    
+      return super.description + ", 每小时\(speed)英里"
     }
 }
-
 let myCar = Car()
 println(myCar.description)
 
 
-//属性观察
+//4.属性观察
 //有问题
 //class ParentCar: Car {
 //   override var speed = Double {
@@ -87,7 +78,6 @@ println(myCar.description)
 //            
 //            if newValue > 65.0 {
 //            println("请小心")
-//            
 //            }
 //        
 //        }
@@ -120,13 +110,12 @@ let myCount = Conter()
 myCount.incrementBy(3)
 
 
-//结构体
+//5.结构体
 
 struct Point {
     var x, y: Double
    //修改结构体
     mutating func moveToTheRightBy(dx: Double) {
-    
     x = x+dx
     }
 }
@@ -143,42 +132,33 @@ struct Rect {
     return size.width * size.height
     
     }
-    
     //增加方法
     func isBiggerThanRection(other: Rect) -> Bool {
         return self.area > other.area
     
     }
-    
     //也可以增加属性观察
-   
-    
-    
 }
 
 //结构体和类的区别 类可以继承，而结构体不可以继承。结构体值传递，类 引用传递，传递对象地址
 
-//枚举
+//6.枚举
 
 enum Day: Int {
 
 case Moday = 1
 case TuesDay = 2
-
 case wednesday = 3, Thursday, Friday
-
 }
 
 let day = Day.Friday
 println(day.rawValue)
  var day1 = Day.Moday
 day1 = .TuesDay
-
 enum TrainStatus {
 
     //关键之
 case OnTime,Delayed(Int)
-    
     init(){
     
     self = OnTime
@@ -208,7 +188,7 @@ println(status.description)
 
 //类型嵌套 类中可以嵌套枚举 结构体等 枚举 结构体类似
 
-//扩展
+//7.扩展
 
 extension Size {
 
@@ -223,10 +203,7 @@ extension Size {
 extension Int {
 
     func repetitions(task: () ->()) {
-    
         for i in 0...self {
-        
-        
         task()
         }
     }
@@ -236,7 +213,6 @@ extension Int {
 
 3.repetitions({
 println("sud")
-
 })
 
 //或者
@@ -245,7 +221,7 @@ println("sud")
 //或者
 1.repetitions{  println("sud") }
 
-//非泛型化得站结构的结构体
+//8.非泛型化得站结构的结构体
 
 //泛型化得站结构的结构体
 
@@ -263,7 +239,6 @@ struct Stack<T> {
 }
 
 //构建一个Int类型站结构体
-
 var intStack = Stack<Int>()
 intStack.push(50)
 let lastIn = intStack.pop()
@@ -271,7 +246,7 @@ let lastIn = intStack.pop()
 
 /*
 
-可能值类型 表示可能没有值，两种状态 没有值nil（与OC中nil不同）有值
+9.可能值类型 表示可能没有值，两种状态 没有值nil（与OC中nil不同）有值
 
 非可能值类型不能为空
 */
@@ -297,13 +272,10 @@ var fruit = ["apple", "banana","pear"]
 let index = findIndexOfString("banana", fruit)
 //拆包前 确保 可能值不为空
 if (index != nil) {
-
     println("I like \(fruit[index!])")
 
 } else {
-
     println("NO Fruit");
-
 }
 
 //可能值绑定
@@ -312,7 +284,6 @@ if let indexValue = index {
     println("I like \(fruit[indexValue])")
 
 } else {
-
     println("No fruit")
 }
 
@@ -382,9 +353,7 @@ enum Optional<T> {
 对可能值拆包，才可以返回内部存储的那个不是nil的值
 在你确认有值的时候，在使用强制拆包运算符！
 使用 if let 可能值绑定技术，可达到同时检测 和拆包的目的
-
-
-可能值练（？）时一种简洁德方式去应对一串可能值
+可能值练（？）时一种简洁的方式去应对一串可能值
 */
 
 
@@ -393,7 +362,6 @@ enum Optional<T> {
 swift 不支持手动内存管理
 ARC 不是 垃圾回收机制
 ARC时不需要该对象时立即回收，垃圾回收机制类似于定期清理
-
 
 弱引用 一定是可能值类型
 对可能值进行绑定会产生一个强引用
