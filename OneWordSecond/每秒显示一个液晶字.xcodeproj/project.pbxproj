@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEAF4B701B802E5700B83DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAF4B6F1B802E5700B83DDC /* AppDelegate.swift */; };
+		DEAF4B721B802E5700B83DDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAF4B711B802E5700B83DDC /* ViewController.swift */; };
+		DEAF4B751B802E5700B83DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAF4B731B802E5700B83DDC /* Main.storyboard */; };
+		DEAF4B771B802E5700B83DDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAF4B761B802E5700B83DDC /* Images.xcassets */; };
+		DEAF4B7A1B802E5700B83DDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEAF4B781B802E5700B83DDC /* LaunchScreen.xib */; };
+		DEAF4B861B802E5700B83DDC /* _________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAF4B851B802E5700B83DDC /* _________Tests.swift */; };
+		DEAF4B901B802E8B00B83DDC /* LCD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = DEAF4B8F1B802E8B00B83DDC /* LCD.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEAF4B801B802E5700B83DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAF4B621B802E5700B83DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAF4B691B802E5700B83DDC;
+			remoteInfo = "每秒显示一个液晶字";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEAF4B6A1B802E5700B83DDC /* 每秒显示一个液晶字.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "每秒显示一个液晶字.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAF4B6E1B802E5700B83DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAF4B6F1B802E5700B83DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEAF4B711B802E5700B83DDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEAF4B741B802E5700B83DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEAF4B761B802E5700B83DDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEAF4B791B802E5700B83DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DEAF4B7F1B802E5700B83DDC /* 每秒显示一个液晶字Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "每秒显示一个液晶字Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAF4B841B802E5700B83DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAF4B851B802E5700B83DDC /* _________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_________Tests.swift"; sourceTree = "<group>"; };
+		DEAF4B8F1B802E8B00B83DDC /* LCD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = LCD.TTF; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEAF4B671B802E5700B83DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAF4B7C1B802E5700B83DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEAF4B611B802E5700B83DDC = {
+			isa = PBXGroup;
+			children = (
+				DEAF4B6C1B802E5700B83DDC /* 每秒显示一个液晶字 */,
+				DEAF4B821B802E5700B83DDC /* 每秒显示一个液晶字Tests */,
+				DEAF4B6B1B802E5700B83DDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEAF4B6B1B802E5700B83DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEAF4B6A1B802E5700B83DDC /* 每秒显示一个液晶字.app */,
+				DEAF4B7F1B802E5700B83DDC /* 每秒显示一个液晶字Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEAF4B6C1B802E5700B83DDC /* 每秒显示一个液晶字 */ = {
+			isa = PBXGroup;
+			children = (
+				DEAF4B8F1B802E8B00B83DDC /* LCD.TTF */,
+				DEAF4B6F1B802E5700B83DDC /* AppDelegate.swift */,
+				DEAF4B711B802E5700B83DDC /* ViewController.swift */,
+				DEAF4B731B802E5700B83DDC /* Main.storyboard */,
+				DEAF4B761B802E5700B83DDC /* Images.xcassets */,
+				DEAF4B781B802E5700B83DDC /* LaunchScreen.xib */,
+				DEAF4B6D1B802E5700B83DDC /* Supporting Files */,
+			);
+			path = "每秒显示一个液晶字";
+			sourceTree = "<group>";
+		};
+		DEAF4B6D1B802E5700B83DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEAF4B6E1B802E5700B83DDC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEAF4B821B802E5700B83DDC /* 每秒显示一个液晶字Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DEAF4B851B802E5700B83DDC /* _________Tests.swift */,
+				DEAF4B831B802E5700B83DDC /* Supporting Files */,
+			);
+			path = "每秒显示一个液晶字Tests";
+			sourceTree = "<group>";
+		};
+		DEAF4B831B802E5700B83DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEAF4B841B802E5700B83DDC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEAF4B691B802E5700B83DDC /* 每秒显示一个液晶字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAF4B891B802E5700B83DDC /* Build configuration list for PBXNativeTarget "每秒显示一个液晶字" */;
+			buildPhases = (
+				DEAF4B661B802E5700B83DDC /* Sources */,
+				DEAF4B671B802E5700B83DDC /* Frameworks */,
+				DEAF4B681B802E5700B83DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "每秒显示一个液晶字";
+			productName = "每秒显示一个液晶字";
+			productReference = DEAF4B6A1B802E5700B83DDC /* 每秒显示一个液晶字.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEAF4B7E1B802E5700B83DDC /* 每秒显示一个液晶字Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAF4B8C1B802E5700B83DDC /* Build configuration list for PBXNativeTarget "每秒显示一个液晶字Tests" */;
+			buildPhases = (
+				DEAF4B7B1B802E5700B83DDC /* Sources */,
+				DEAF4B7C1B802E5700B83DDC /* Frameworks */,
+				DEAF4B7D1B802E5700B83DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAF4B811B802E5700B83DDC /* PBXTargetDependency */,
+			);
+			name = "每秒显示一个液晶字Tests";
+			productName = "每秒显示一个液晶字Tests";
+			productReference = DEAF4B7F1B802E5700B83DDC /* 每秒显示一个液晶字Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEAF4B621B802E5700B83DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Terry;
+				TargetAttributes = {
+					DEAF4B691B802E5700B83DDC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DEAF4B7E1B802E5700B83DDC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DEAF4B691B802E5700B83DDC;
+					};
+				};
+			};
+			buildConfigurationList = DEAF4B651B802E5700B83DDC /* Build configuration list for PBXProject "每秒显示一个液晶字" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEAF4B611B802E5700B83DDC;
+			productRefGroup = DEAF4B6B1B802E5700B83DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEAF4B691B802E5700B83DDC /* 每秒显示一个液晶字 */,
+				DEAF4B7E1B802E5700B83DDC /* 每秒显示一个液晶字Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEAF4B681B802E5700B83DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAF4B751B802E5700B83DDC /* Main.storyboard in Resources */,
+				DEAF4B7A1B802E5700B83DDC /* LaunchScreen.xib in Resources */,
+				DEAF4B901B802E8B00B83DDC /* LCD.TTF in Resources */,
+				DEAF4B771B802E5700B83DDC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAF4B7D1B802E5700B83DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEAF4B661B802E5700B83DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAF4B721B802E5700B83DDC /* ViewController.swift in Sources */,
+				DEAF4B701B802E5700B83DDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAF4B7B1B802E5700B83DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAF4B861B802E5700B83DDC /* _________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEAF4B811B802E5700B83DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAF4B691B802E5700B83DDC /* 每秒显示一个液晶字 */;
+			targetProxy = DEAF4B801B802E5700B83DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEAF4B731B802E5700B83DDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAF4B741B802E5700B83DDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEAF4B781B802E5700B83DDC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAF4B791B802E5700B83DDC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEAF4B871B802E5700B83DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEAF4B881B802E5700B83DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEAF4B8A1B802E5700B83DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "每秒显示一个液晶字/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEAF4B8B1B802E5700B83DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "每秒显示一个液晶字/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEAF4B8D1B802E5700B83DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "每秒显示一个液晶字Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/每秒显示一个液晶字.app/每秒显示一个液晶字";
+			};
+			name = Debug;
+		};
+		DEAF4B8E1B802E5700B83DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "每秒显示一个液晶字Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/每秒显示一个液晶字.app/每秒显示一个液晶字";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEAF4B651B802E5700B83DDC /* Build configuration list for PBXProject "每秒显示一个液晶字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAF4B871B802E5700B83DDC /* Debug */,
+				DEAF4B881B802E5700B83DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAF4B891B802E5700B83DDC /* Build configuration list for PBXNativeTarget "每秒显示一个液晶字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAF4B8A1B802E5700B83DDC /* Debug */,
+				DEAF4B8B1B802E5700B83DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEAF4B8C1B802E5700B83DDC /* Build configuration list for PBXNativeTarget "每秒显示一个液晶字Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAF4B8D1B802E5700B83DDC /* Debug */,
+				DEAF4B8E1B802E5700B83DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEAF4B621B802E5700B83DDC /* Project object */;
+}
