@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIImageViewLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="pX6-bf-Sh1">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="526"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xeb-49-Eyy">
+                                <rect key="frame" x="254" y="539" width="93" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="93" id="DhP-lB-2LI"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeImageView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M3h-XW-rsb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNA-Kk-KVe">
+                                <rect key="frame" x="538" y="547" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="aG8-zb-siO"/>
+                                </constraints>
+                                <state key="normal" title="Hide">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hideButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xj8-in-UQr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="pX6-bf-Sh1" secondAttribute="trailing" constant="-16" id="3DU-Nd-JAy"/>
+                            <constraint firstItem="pX6-bf-Sh1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="3pL-Nd-gDk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pX6-bf-Sh1" secondAttribute="bottom" constant="74" id="FEq-Qx-dZl"/>
+                            <constraint firstItem="Xeb-49-Eyy" firstAttribute="top" secondItem="pX6-bf-Sh1" secondAttribute="bottom" constant="13" id="KaQ-8j-bCW"/>
+                            <constraint firstItem="ZNA-Kk-KVe" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="PSg-Yf-tId"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xeb-49-Eyy" secondAttribute="bottom" constant="15" id="bti-99-FFt"/>
+                            <constraint firstItem="ZNA-Kk-KVe" firstAttribute="baseline" secondItem="Xeb-49-Eyy" secondAttribute="baseline" id="lL9-dK-DEp"/>
+                            <constraint firstItem="pX6-bf-Sh1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="xRd-3C-WPt"/>
+                            <constraint firstItem="Xeb-49-Eyy" firstAttribute="centerX" secondItem="pX6-bf-Sh1" secondAttribute="centerX" id="xaD-7n-eD0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="changeButton" destination="Xeb-49-Eyy" id="P4y-cp-bqT"/>
+                        <outlet property="girlImageView" destination="pX6-bf-Sh1" id="3OL-m8-kHm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2.png" width="310" height="465"/>
+    </resources>
+</document>
