@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BAC85191B8DB90400F12D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAC85181B8DB90400F12D88 /* AppDelegate.swift */; };
+		6BAC851B1B8DB90400F12D88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAC851A1B8DB90400F12D88 /* ViewController.swift */; };
+		6BAC851E1B8DB90400F12D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC851C1B8DB90400F12D88 /* Main.storyboard */; };
+		6BAC85201B8DB90400F12D88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC851F1B8DB90400F12D88 /* Images.xcassets */; };
+		6BAC85231B8DB90400F12D88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC85211B8DB90400F12D88 /* LaunchScreen.xib */; };
+		6BAC852F1B8DB90500F12D88 /* TESQLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAC852E1B8DB90500F12D88 /* TESQLiteTests.swift */; };
+		6BAC853D1B8DBB3A00F12D88 /* alien.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC85381B8DBB3A00F12D88 /* alien.jpg */; };
+		6BAC853E1B8DBB3A00F12D88 /* filmoteca.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC85391B8DBB3A00F12D88 /* filmoteca.sqlite */; };
+		6BAC853F1B8DBB3A00F12D88 /* godzilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC853A1B8DBB3A00F12D88 /* godzilla.jpg */; };
+		6BAC85401B8DBB3A00F12D88 /* hobbit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC853B1B8DBB3A00F12D88 /* hobbit.jpg */; };
+		6BAC85411B8DBB3A00F12D88 /* jpark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC853C1B8DBB3A00F12D88 /* jpark.jpg */; };
+		6BAC85481B8DBD5C00F12D88 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAC85471B8DBD5C00F12D88 /* libsqlite3.dylib */; };
+		6BAC854D1B8DC5CD00F12D88 /* TESQLableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAC854B1B8DC5CD00F12D88 /* TESQLableViewCell.swift */; };
+		6BAC854E1B8DC5CD00F12D88 /* TESQLableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC854C1B8DC5CD00F12D88 /* TESQLableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BAC85291B8DB90500F12D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BAC850B1B8DB90400F12D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BAC85121B8DB90400F12D88;
+			remoteInfo = TESQLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BAC85131B8DB90400F12D88 /* TESQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TESQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BAC85171B8DB90400F12D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BAC85181B8DB90400F12D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BAC851A1B8DB90400F12D88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BAC851D1B8DB90400F12D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BAC851F1B8DB90400F12D88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BAC85221B8DB90400F12D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6BAC85281B8DB90500F12D88 /* TESQLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESQLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BAC852D1B8DB90500F12D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BAC852E1B8DB90500F12D88 /* TESQLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TESQLiteTests.swift; sourceTree = "<group>"; };
+		6BAC85381B8DBB3A00F12D88 /* alien.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alien.jpg; sourceTree = "<group>"; };
+		6BAC85391B8DBB3A00F12D88 /* filmoteca.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = filmoteca.sqlite; sourceTree = "<group>"; };
+		6BAC853A1B8DBB3A00F12D88 /* godzilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = godzilla.jpg; sourceTree = "<group>"; };
+		6BAC853B1B8DBB3A00F12D88 /* hobbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hobbit.jpg; sourceTree = "<group>"; };
+		6BAC853C1B8DBB3A00F12D88 /* jpark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jpark.jpg; sourceTree = "<group>"; };
+		6BAC85431B8DBC7A00F12D88 /* TESQLite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TESQLite-Bridging-Header.h"; sourceTree = "<group>"; };
+		6BAC85471B8DBD5C00F12D88 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6BAC854B1B8DC5CD00F12D88 /* TESQLableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TESQLableViewCell.swift; sourceTree = "<group>"; };
+		6BAC854C1B8DC5CD00F12D88 /* TESQLableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TESQLableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BAC85101B8DB90400F12D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAC85481B8DBD5C00F12D88 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BAC85251B8DB90500F12D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BAC850A1B8DB90400F12D88 = {
+			isa = PBXGroup;
+			children = (
+				6BAC85471B8DBD5C00F12D88 /* libsqlite3.dylib */,
+				6BAC85151B8DB90400F12D88 /* TESQLite */,
+				6BAC852B1B8DB90500F12D88 /* TESQLiteTests */,
+				6BAC85141B8DB90400F12D88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BAC85141B8DB90400F12D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BAC85131B8DB90400F12D88 /* TESQLite.app */,
+				6BAC85281B8DB90500F12D88 /* TESQLiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BAC85151B8DB90400F12D88 /* TESQLite */ = {
+			isa = PBXGroup;
+			children = (
+				6BAC85381B8DBB3A00F12D88 /* alien.jpg */,
+				6BAC85391B8DBB3A00F12D88 /* filmoteca.sqlite */,
+				6BAC853A1B8DBB3A00F12D88 /* godzilla.jpg */,
+				6BAC853B1B8DBB3A00F12D88 /* hobbit.jpg */,
+				6BAC853C1B8DBB3A00F12D88 /* jpark.jpg */,
+				6BAC85181B8DB90400F12D88 /* AppDelegate.swift */,
+				6BAC851A1B8DB90400F12D88 /* ViewController.swift */,
+				6BAC854B1B8DC5CD00F12D88 /* TESQLableViewCell.swift */,
+				6BAC854C1B8DC5CD00F12D88 /* TESQLableViewCell.xib */,
+				6BAC851C1B8DB90400F12D88 /* Main.storyboard */,
+				6BAC851F1B8DB90400F12D88 /* Images.xcassets */,
+				6BAC85211B8DB90400F12D88 /* LaunchScreen.xib */,
+				6BAC85161B8DB90400F12D88 /* Supporting Files */,
+				6BAC85431B8DBC7A00F12D88 /* TESQLite-Bridging-Header.h */,
+			);
+			path = TESQLite;
+			sourceTree = "<group>";
+		};
+		6BAC85161B8DB90400F12D88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BAC85171B8DB90400F12D88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BAC852B1B8DB90500F12D88 /* TESQLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BAC852E1B8DB90500F12D88 /* TESQLiteTests.swift */,
+				6BAC852C1B8DB90500F12D88 /* Supporting Files */,
+			);
+			path = TESQLiteTests;
+			sourceTree = "<group>";
+		};
+		6BAC852C1B8DB90500F12D88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BAC852D1B8DB90500F12D88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BAC85121B8DB90400F12D88 /* TESQLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BAC85321B8DB90500F12D88 /* Build configuration list for PBXNativeTarget "TESQLite" */;
+			buildPhases = (
+				6BAC850F1B8DB90400F12D88 /* Sources */,
+				6BAC85101B8DB90400F12D88 /* Frameworks */,
+				6BAC85111B8DB90400F12D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TESQLite;
+			productName = TESQLite;
+			productReference = 6BAC85131B8DB90400F12D88 /* TESQLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BAC85271B8DB90500F12D88 /* TESQLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BAC85351B8DB90500F12D88 /* Build configuration list for PBXNativeTarget "TESQLiteTests" */;
+			buildPhases = (
+				6BAC85241B8DB90500F12D88 /* Sources */,
+				6BAC85251B8DB90500F12D88 /* Frameworks */,
+				6BAC85261B8DB90500F12D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BAC852A1B8DB90500F12D88 /* PBXTargetDependency */,
+			);
+			name = TESQLiteTests;
+			productName = TESQLiteTests;
+			productReference = 6BAC85281B8DB90500F12D88 /* TESQLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BAC850B1B8DB90400F12D88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Terry;
+				TargetAttributes = {
+					6BAC85121B8DB90400F12D88 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6BAC85271B8DB90500F12D88 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6BAC85121B8DB90400F12D88;
+					};
+				};
+			};
+			buildConfigurationList = 6BAC850E1B8DB90400F12D88 /* Build configuration list for PBXProject "TESQLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BAC850A1B8DB90400F12D88;
+			productRefGroup = 6BAC85141B8DB90400F12D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BAC85121B8DB90400F12D88 /* TESQLite */,
+				6BAC85271B8DB90500F12D88 /* TESQLiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BAC85111B8DB90400F12D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAC85411B8DBB3A00F12D88 /* jpark.jpg in Resources */,
+				6BAC85401B8DBB3A00F12D88 /* hobbit.jpg in Resources */,
+				6BAC853E1B8DBB3A00F12D88 /* filmoteca.sqlite in Resources */,
+				6BAC853F1B8DBB3A00F12D88 /* godzilla.jpg in Resources */,
+				6BAC851E1B8DB90400F12D88 /* Main.storyboard in Resources */,
+				6BAC854E1B8DC5CD00F12D88 /* TESQLableViewCell.xib in Resources */,
+				6BAC853D1B8DBB3A00F12D88 /* alien.jpg in Resources */,
+				6BAC85231B8DB90400F12D88 /* LaunchScreen.xib in Resources */,
+				6BAC85201B8DB90400F12D88 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BAC85261B8DB90500F12D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BAC850F1B8DB90400F12D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAC851B1B8DB90400F12D88 /* ViewController.swift in Sources */,
+				6BAC85191B8DB90400F12D88 /* AppDelegate.swift in Sources */,
+				6BAC854D1B8DC5CD00F12D88 /* TESQLableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BAC85241B8DB90500F12D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAC852F1B8DB90500F12D88 /* TESQLiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BAC852A1B8DB90500F12D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BAC85121B8DB90400F12D88 /* TESQLite */;
+			targetProxy = 6BAC85291B8DB90500F12D88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BAC851C1B8DB90400F12D88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BAC851D1B8DB90400F12D88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BAC85211B8DB90400F12D88 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BAC85221B8DB90400F12D88 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BAC85301B8DB90500F12D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BAC85311B8DB90500F12D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BAC85331B8DB90500F12D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TESQLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TESQLite/TESQLite-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BAC85341B8DB90500F12D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TESQLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TESQLite/TESQLite-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6BAC85361B8DB90500F12D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TESQLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TESQLite.app/TESQLite";
+			};
+			name = Debug;
+		};
+		6BAC85371B8DB90500F12D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TESQLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TESQLite.app/TESQLite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BAC850E1B8DB90400F12D88 /* Build configuration list for PBXProject "TESQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAC85301B8DB90500F12D88 /* Debug */,
+				6BAC85311B8DB90500F12D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BAC85321B8DB90500F12D88 /* Build configuration list for PBXNativeTarget "TESQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAC85331B8DB90500F12D88 /* Debug */,
+				6BAC85341B8DB90500F12D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BAC85351B8DB90500F12D88 /* Build configuration list for PBXNativeTarget "TESQLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAC85361B8DB90500F12D88 /* Debug */,
+				6BAC85371B8DB90500F12D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BAC850B1B8DB90400F12D88 /* Project object */;
+}
